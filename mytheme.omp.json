@@ -56,7 +56,7 @@
           "foreground": "p:pistachio-green",
           "template": "\ue718 {{ .Full }} "
         },
-{
+        {
           "type": "npm",
           "style": "plain",
           "foreground": "p:terminal-red",
@@ -121,6 +121,13 @@
           "style": "plain",
           "foreground": "p:light-sky-blue",
           "template": "\uFCD1 {{ .Full}}"
+        },
+        {
+          "type": "docker",
+          "style": "plain",
+          "foreground": "#2986FF",
+          "properties": { "display_mode": "files" },
+          "template": "\uf21f {{ .Context }} "
         },
         {
           "type": "status",
