@@ -56,6 +56,42 @@
           "foreground": "p:pistachio-green",
           "template": "\ue718 {{ .Full }} "
         },
+{
+          "type": "npm",
+          "style": "plain",
+          "foreground": "p:terminal-red",
+          "template": "\ued0e {{ .Full }} "
+        },
+        {
+          "type": "yarn",
+          "style": "plain",
+          "properties": {
+            "extensions": ["yarn-lock.yaml"]
+          },
+          "foreground": "p:terminal-blue",
+          "template": "\ue6a7 {{ .Full }} "
+        },
+        {
+          "type": "pnpm",
+          "style": "plain",
+          "properties": {
+            "extensions": ["pnpm-lock.yaml"]
+          },
+          "foreground": "p:terminal-yellow",
+          "template": "\ue865 {{ .Full }} "
+        },
+        {
+          "type": "bun",
+          "style": "plain",
+          "foreground": "p:pastal-grey",
+          "template": "\ue76f {{ .Full }} "
+        },
+        {
+          "type": "react",
+          "style": "plain",
+          "foreground": "p:terminal-blue",
+          "template": "\ue7ba {{ .Full }} "
+        },
         {
           "type": "php",
           "style": "plain",
